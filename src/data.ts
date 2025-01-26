@@ -11,7 +11,7 @@ export const projects: Project[] = [
     imageUrl: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=1600&q=80",
     demoUrl: "https://demo.example.com",
     githubUrl: "https://github.com/example/project",
-    category: "Full Stack"
+    category: "React"
   },
   {
     id: 2,
@@ -21,7 +21,27 @@ export const projects: Project[] = [
     imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=1600&q=80",
     demoUrl: "https://demo.example.com",
     githubUrl: "https://github.com/example/project",
-    category: "Frontend"
+    category: "HTML/CSS"
+  },
+  {
+    id: 3,
+    title: "E-Commerce Platform",
+    description: "Full-stack e-commerce solution with real-time inventory management",
+    technologies: ["React", "Node.js", "MongoDB", "Redux"],
+    imageUrl: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=1600&q=80",
+    demoUrl: "https://demo.example.com",
+    githubUrl: "https://github.com/example/project",
+    category: "React"
+  },
+  {
+    id: 4,
+    title: "Task Management App",
+    description: "Collaborative task management with real-time updates",
+    technologies: ["React", "Firebase", "Tailwind CSS"],
+    imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=1600&q=80",
+    demoUrl: "https://demo.example.com",
+    githubUrl: "https://github.com/example/project",
+    category: "HTML/CSS"
   },
   // Add more projects as needed
 ];

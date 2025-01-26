@@ -2,8 +2,6 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { FaBootstrap, FaCss3Alt, FaGitAlt, FaHtml5, FaReact, FaSass } from "react-icons/fa";
 import { TbBrandTypescript } from "react-icons/tb";
-
-import img from "../assets/tarek.jpg";
 import { SiJavascript, SiRedux, SiTailwindcss } from "react-icons/si";
 import { FiFigma } from "react-icons/fi";
 
@@ -68,13 +66,11 @@ const Skills = () => {
       name: "Figma",
       icon: <FiFigma className="text-red-500" />,
       category: "UI/UX Design",
-    }
+    },
   ];
-  
-  
 
   return (
-    <section className="py-20 bg-gradient-to-br from-gray-900 to-gray-800" id="skills">
+    <section className="py-20 bg-gray-900" id="skills">
       <motion.div
         ref={ref}
         className="container mx-auto px-6"
@@ -84,7 +80,7 @@ const Skills = () => {
       >
         <div className="text-center mb-16">
           <motion.span
-            className="text-blue-400 font-semibold tracking-wide uppercase"
+            className="text-blue-400 font-semibold tracking-wide uppercase text-sm"
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : { opacity: 0 }}
             transition={{ delay: 0.2 }}
@@ -101,19 +97,17 @@ const Skills = () => {
           </motion.h2>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {skills.map((skill, index) => (
             <motion.div
               key={skill.name}
-              className="relative p-8 rounded-3xl bg-gradient-to-br from-gray-700 via-gray-800 to-gray-900 shadow-xl hover:shadow-2xl hover:scale-105 transform transition-all group"
+              className="relative p-6 rounded-lg bg-gray-800 border border-gray-700 hover:border-blue-400 transition-all duration-300 group"
               initial={{ opacity: 0, y: 50 }}
               animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
               transition={{ delay: 0.2 * index }}
             >
-              <div className="absolute -inset-1 rounded-3xl bg-gradient-to-r from-blue-400 to-purple-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-
-              <div className="relative z-10 flex flex-col items-center">
-                <div className="w-16 h-16 rounded-full bg-white flex items-center justify-center text-3xl text-blue-500 mb-6">
+              <div className="flex flex-col items-center text-center">
+                <div className="w-12 h-12 rounded-full bg-gray-700 flex items-center justify-center text-2xl text-blue-400 mb-4">
                   {skill.icon}
                 </div>
                 <h4 className="text-xl font-semibold text-white mb-2">
