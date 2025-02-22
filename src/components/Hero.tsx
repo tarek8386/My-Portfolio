@@ -83,13 +83,18 @@ const Hero = () => {
               >
                 View Portfolio
               </motion.button>
-              <motion.button
-                className="border border-blue-400 text-blue-400 px-8 py-4 rounded-lg font-semibold hover:bg-blue-400/10 transition-all"
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-              >
-                Download CV
-              </motion.button>
+              <motion.a
+  href="https://drive.google.com/file/d/1b0rWbZstc0l-HQXYP60KnQVrvq-OlOpg/view?usp=sharing"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="border border-blue-400 text-blue-400 px-8 py-4 rounded-lg font-semibold hover:bg-blue-400/10 transition-all"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+>
+  Download CV
+</motion.a>
+
+
             </motion.div>
 
             <motion.div 

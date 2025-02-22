@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Github } from 'lucide-react';
+import { ExternalLink } from 'lucide-react';
 import { projects } from '../data';
 
 const Projects = () => {
@@ -64,14 +64,14 @@ const Projects = () => {
                     >
                       <ExternalLink size={20} />
                     </a>
-                    <a
+                    {/* <a
                       href={project.githubUrl}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="p-2 bg-white rounded-full hover:bg-gray-100 transition-colors"
                     >
                       <Github size={20} />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
 

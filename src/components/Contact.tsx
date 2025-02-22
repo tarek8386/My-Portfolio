@@ -2,8 +2,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Phone, MapPin } from 'lucide-react';
 import emailjs from '@emailjs/browser';
-import * as THREE from 'three'; // Required for Vanta.js
-import GLOBE from 'vanta/dist/vanta.globe.min'; // Import the Globe effect
+import * as THREE from 'three'; 
+import GLOBE from 'vanta/dist/vanta.globe.min';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -156,21 +156,21 @@ const Contact = () => {
             <div className="space-y-6">
               <div className="flex items-center">
                 <Mail className="w-6 h-6 text-blue-500 mr-4" />
-                <span className="text-gray-300">contact@example.com</span>
+                <span className="text-gray-300">tmahmudsuzon@gmail.com</span>
               </div>
               <div className="flex items-center">
                 <Phone className="w-6 h-6 text-blue-500 mr-4" />
-                <span className="text-gray-300">+1 (555) 123-4567</span>
+                <span className="text-gray-300">+8801744336039</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="w-6 h-6 text-blue-500 mr-4" />
-                <span className="text-gray-300">San Francisco, CA</span>
+                <span className="text-gray-300">Banasree, Dhaka</span>
               </div>
             </div>
 
             <div className="mt-12">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555098464!2d-122.507640!3d37.757815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA!5e0!3m2!1sen!2sus!4v1"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14607.034287102319!2d90.42431601419932!3d23.75598729831483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c78a3f09a931%3A0x2268195f17f057c!2sShwapno%20-%20North%20Banasree!5e0!3m2!1sen!2sbd!4v1740215776981!5m2!1sen!2sbd"
                 width="100%"
                 height="300"
                 style={{ border: 0 }}

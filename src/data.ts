@@ -1,49 +1,74 @@
 import { Project, Experience } from './types';
 
 import softvencelogo from '../src/assets/softvence.png'
+import taxdax from '../src/assets/taxdax.png';
+import onestop from '../src/assets/onestop.png';
+import feso from '../src/assets/feso.png';
+import magfadglobal from '../src/assets/magfadglobal.png';
+import artist from '../src/assets/artist.png';
+import arete from '../src/assets/arete.png';
 
 export const projects: Project[] = [
   {
     id: 1,
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with real-time inventory management",
-    technologies: ["React", "Node.js", "MongoDB", "Redux"],
-    imageUrl: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=1600&q=80",
-    demoUrl: "https://demo.example.com",
-    githubUrl: "https://github.com/example/project",
-    category: "React"
+    title: "Service provider website",
+    description: "24/7 Service at User doorstep where the find perfect service for their needs ",
+    technologies: ["HTML", "CSS", "JS", "Bootstrap"],
+    imageUrl: taxdax,
+    demoUrl: "https://onestop-services.netlify.app/",
+    githubUrl: "https://github.com/tarek8386/",
+    category: "HTML/CSS/JS"
   },
   {
     id: 2,
-    title: "Task Management App",
-    description: "Collaborative task management with real-time updates",
-    technologies: ["React", "Firebase", "Tailwind CSS"],
-    imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=1600&q=80",
-    demoUrl: "https://demo.example.com",
-    githubUrl: "https://github.com/example/project",
-    category: "HTML/CSS"
+    title: "Tax Solution Website",
+    description: "Solution For Tax related service where User can Find Trusted Tax Professionals Near them",
+    technologies: ["HTML", "CSS", "JS", "Bootstrap"],
+    imageUrl:onestop,
+    demoUrl: "https://tax-dax.netlify.app/",
+     githubUrl: "https://github.com/tarek8386/",
+    category: "HTML/CSS/JS"
   },
   {
     id: 3,
-    title: "E-Commerce Platform",
-    description: "Full-stack e-commerce solution with real-time inventory management",
-    technologies: ["React", "Node.js", "MongoDB", "Redux"],
-    imageUrl: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&w=1600&q=80",
-    demoUrl: "https://demo.example.com",
-    githubUrl: "https://github.com/example/project",
+    title: "Investment Website",
+    description: "FeSo Invest is a family investment office based in Berlin that seeks investment opportunities across multiple asset classes",
+    technologies: ["React", "Vite", "JS", "Tailwind CSS"],
+    imageUrl: feso,
+    demoUrl: "https://feso-ten.vercel.app/",
+    githubUrl: "https://github.com/tarek8386/",
     category: "React"
   },
   {
     id: 4,
-    title: "Task Management App",
-    description: "Collaborative task management with real-time updates",
-    technologies: ["React", "Firebase", "Tailwind CSS"],
-    imageUrl: "https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d?auto=format&fit=crop&w=1600&q=80",
-    demoUrl: "https://demo.example.com",
-    githubUrl: "https://github.com/example/project",
-    category: "HTML/CSS"
+    title: "Marketing Website",
+    description: "Product marketing solution in one place",
+    technologies: ["HTML", "CSS", "JS", "Bootstrap"],
+    imageUrl: magfadglobal,
+    demoUrl: "https://magfadglobal.netlify.app/",
+    githubUrl: "https://github.com/tarek8386/",
+    category: "HTML/CSS/JS"
   },
-  // Add more projects as needed
+  {
+    id: 5,
+    title: "Artist Website",
+    description: "Artist portfolio and his content selling website",
+    technologies: ["HTML", "CSS", "JS", "Bootstrap"],
+    imageUrl: artist,
+    demoUrl: "https://www.jeanrenardmusic.com/",
+    githubUrl: "https://github.com/tarek8386/",
+    category: "HTML/CSS/JS"
+  },
+  {
+    id: 6,
+    title: "Investment Website",
+    description: "FeSo Invest is a family investment office based in Berlin that seeks investment opportunities across multiple asset classes",
+    technologies: ["React", "Vite", "JS", "Tailwind CSS"],
+    imageUrl: arete,
+    demoUrl: "https://arete-solution.netlify.app/",
+    githubUrl: "https://github.com/tarek8386/",
+    category: "React"
+  },
 ];
 
 export const experiences: Experience[] = [
@@ -57,10 +82,10 @@ export const experiences: Experience[] = [
   },
   {
     id: 2,
-    company: "Techworld",
-    position: "Frontend Developer",
+    company: "Business Solution Website",
+    position: "Frontend Designer",
     period: "2022 - 2023",
-    description: "Led frontend development team, implemented modern React architectures",
+    description: "Empowering users business with precise accounting solutions",
     logo: "https://images.unsplash.com/photo-1549421263-6064833b071b?auto=format&fit=crop&w=100&q=80"
   },
   // Add more experiences
