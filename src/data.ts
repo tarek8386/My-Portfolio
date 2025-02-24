@@ -82,10 +82,10 @@ export const experiences: Experience[] = [
   },
   {
     id: 2,
-    company: "Business Solution Website",
+    company: "Beauty Shine",
     position: "Frontend Designer",
     period: "2022 - 2023",
-    description: "Empowering users business with precise accounting solutions",
+    description: "Developed and maintain the business website",
     logo: "https://images.unsplash.com/photo-1549421263-6064833b071b?auto=format&fit=crop&w=100&q=80"
   },
   // Add more experiences
