@@ -7,6 +7,7 @@ import feso from '../src/assets/feso.png';
 import magfadglobal from '../src/assets/magfadglobal.png';
 import artist from '../src/assets/artist.png';
 import arete from '../src/assets/arete.png';
+import smite from '../src/assets/smite.png';
 
 export const projects: Project[] = [
   {
@@ -62,10 +63,20 @@ export const projects: Project[] = [
   {
     id: 6,
     title: "Investment Website",
-    description: "FeSo Invest is a family investment office based in Berlin that seeks investment opportunities across multiple asset classes",
+    description: "Arete Advisors is a modern accounting and advisory firm helping small businesses grow through expert guidance, strategic insight, and personalized financial solutions.",
     technologies: ["React", "Vite", "JS", "Tailwind CSS"],
     imageUrl: arete,
     demoUrl: "https://arete-solution.netlify.app/",
+    githubUrl: "https://github.com/tarek8386/",
+    category: "React"
+  },
+  {
+    id: 7,
+    title: "Gaming Character Voting Website",
+    description: "smite Counters is a gaming character power pool site where users can vote for their favorite character power to increase their rank.",
+    technologies: ["React", "Vite", "JS", "Tailwind CSS"],
+    imageUrl: smite,
+    demoUrl: "https://smite2counters.com/",
     githubUrl: "https://github.com/tarek8386/",
     category: "React"
   },
@@ -88,6 +99,6 @@ export const experiences: Experience[] = [
     description: "Developed and maintain the business website",
     logo: "https://images.unsplash.com/photo-1549421263-6064833b071b?auto=format&fit=crop&w=100&q=80"
   },
-  // Add more experiences
+  
 ];
 
